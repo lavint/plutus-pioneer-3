@@ -32,3 +32,52 @@ Open a new terminal and make sure you are in plutus-apps repo,
 1. `cd plutus-playground-client && npm start` to start a client
 
 Open `https://localhost:8009/` in a browser to use the playground
+
+<br>
+
+To checkout the documentation,
+
+1. `cd plutus-apps `
+
+1. `nix-shell`
+
+1. `build-and-serve-docs`
+
+<br>
+<br>
+<br>
+
+## Week 2 - Set Up Plutus Playground
+
+`git checkout 6aff97d596ac9d59460aab5c65627b1c8c0a1528`
+
+To check and compile Haskell:
+
+1. `cd plutus-apps `
+
+1. `nix-shell`
+
+1. `cd` to the folder that contains the `cabal.project` file
+
+1. `cabal repl`
+
+1. `:l file.hs` to load file
+
+1. `:r` to reload file
+
+
+<br>
+<br>
+<br>
+
+
+## Resources
+
+[plutus-apps](https://github.com/input-output-hk/plutus-apps)
+
+[plutus-pioneer-program](https://github.com/input-output-hk/plutus-pioneer-program)
+
+[Plutus Community Documentation](https://docs.plutus-community.com/)
+
+[Plutus Starter Pack](https://docs.google.com/document/d/13112LHG9vVvNUs40oZSqZ-DF6_yFiT_SJZ2NaEmjMM4/edit?usp=sharing)
+
